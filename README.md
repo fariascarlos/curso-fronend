@@ -1,5 +1,5 @@
-# curso-fronend
+# curso-frontend
 #git
 ## iniciando no git
--a vada dia aprendendo 
+-a cada dia aprendendo 
 -uma coisa nova
