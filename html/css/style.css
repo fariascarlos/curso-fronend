@@ -1,0 +1,150 @@
+* {
+box-sizing: border-box;
+}
+html {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+form div {
+	background: #fff;
+	border: 0;
+	border-bottom: 1rem solid #000;
+	
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	 border-left: 1px solid #000;
+				 
+	margin: 1rem 2rem;
+	padding: 2rem;
+				
+	}
+h1 {
+	font-size: 1.6rem;
+}
+p {
+	font-size: 1.6rem;
+}
+h2 {
+	font-size: 2rem;
+	height: 3rem;
+}
+
+label {
+
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #000;
+			}
+
+[type="text"], [type="email"],textarea, label {
+	display: block;
+	width: 100%;
+	} 
+.navegação li {
+	border-bottom: 1px;
+	padding: 1rem;
+	display: block;
+}
+
+input {
+
+	padding: 1rem;
+	}
+
+/* Style the header */
+header {
+	 background-color: #7b869c;
+
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+	float: left;
+	width: 30%; 
+	background: #fff;
+	padding: 20px;
+
+
+	}
+
+
+/* Style the list inside the menu */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+
+	}
+.navegação a {
+	color: #000;
+	display: block;
+	margin-bottom: .5rem;
+	width: 100%;
+}
+li {
+
+	font-size: 1.2rem;
+	padding: 4px;
+	display: block;
+	line-height: 1.4rem;
+}
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+
+	
+	}
+
+/* Clear floats after the columns */
+section::after {
+	background: #eee;
+	content: "";
+	display: table;
+	clear: both;
+	}
+
+/* Style the footer */
+footer {
+	background-color: #7b869c;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	color: black;
+	}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 425px) {
+nav, article {
+	width: 100%;
+	height: auto;
+	}
+	.home_1{
+		margin: 0;
+		font-size: 1rem;
+		padding:1rem;
+	}
+	.home{
+		border: 0 ;
+		font-size: 5rem;
+		padding: 1rem;
+	}
+	
+ul{
+
+}
+	
+
+	
+	}

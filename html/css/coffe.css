@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    position: relative;
+    
+}
+header{
+    width: 100%;
+    height: 130px;
+    border-bottom: 2px solid red;
+    position: relative;
+    padding-top: 10px;     
+}
+
+.img-01{
+    width: 90px;
+    height: 90px;
+  
+}
+
+.img-02{
+    width: 90px;
+    height: 90px;
+    position:absolute;
+    right: 0;    
+}
+
+h1{
+    font-family: 'Pacifico', cursive;
+    font-weight: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+h3{
+    color:black;
+}
+
+.paginas{
+    background-color: darkgray;
+    width: 150px; 
+    padding-top: 3px;
+    padding-left: 5px;   
+}
+
+p{
+    text height: 200px;
+    color:#fff;
+}
+
+a:hover{
+    background-color: aliceblue;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 3px;
+}
+
+.frase{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.chamada{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.conteiner{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.maquina{
+    width: 300px;
+    height: 300px;
+    padding-top: 3px;
+    transform: translateX(8%);      
+}
+
+h3{
+    color:black;
+    text-align: center;  
+}
+
+.frase-02{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.XICARA{
+    width: 300PX;
+    height: 300PX;
+    padding-top: 3px;
+    border-radius: 10%;
+    transform: translateX(8%);
+    
+}
+
+.conteiner-01{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.chamada-2{
+    text-align: center ;
+    padding-top: 10px;
+}
+
+footer{
+    background-color: darkslategray;
+    width: 100%;
+    height: 60px;
+}
+
+.rua{
+    color: black;
+    text-align: center;
+    padding: auto;
+    font-weight: bold;
+}
+.localização{
+    padding-top: 20px;
+    padding-left: 5px;
+    color: black;
+}
+
+
+    
+ 
+    
+
+
+
+

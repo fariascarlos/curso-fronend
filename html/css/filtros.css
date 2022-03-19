@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    
+}
+body{
+    1.8em
+   
+}
+
+
+div{
+    margin: 35px auto;
+}
+/*cria um circulo*/
+#grafico-01{
+    background-color: brown;
+    width: 200px;
+   overflow: hidden;
+ border-radius:50%;
+ filter: drop-shadow(30px 30px 20px #333);
+ max-width: 100%;
+ height:auto;
+ 
+}
+
+
+header{
+    background-color: darkgray;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    
+}
+nav{
+
+    width: 30%;
+    padding: 20px;  
+    float: left;
+}
+
+article{
+    padding: 20px;
+    width:100%; 
+    float: left; 
+}
+
+h2{
+    text-align: center;
+}
+
+footer{
+    background-color: darkgray;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-weight: 1.rem;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 1.2rem;
+    float: left;
+}
+img{
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    height: auto;
+}
+.coluna{
+display:block;
+width: 33.3%;
+float: left;
+padding: 5px;
+/*background-color: #eee;
+border: 1px solid #333;*/
+}
+
+.coluna-3{
+    columns: 100px 2;
+    width: 50%;
+}
+
+.coluna-100w{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+}
+
+/* filtros*/
+
+.filtros{
+    filter: grayscale(100%);/* escala de cinza*/
+    filter: blur(5px);/* desfocar a imagem*/
+    filter: brightness(150%);/* brilho na imagem* 100% = normal*/
+    filter: invert(100%); /* inverte as cores da imagem*/
+    filter: opacity(50%);
+    filter: saturate(200%) sepia(100%); /*combina filtros separados por imagens*/
+}
+
+.filtros:hover{
+    filter: grayscale(0%);
+    
+}
+
+@media(min-width:768px){
+    body{
+        background-color:teal;
+        color: #fff;
+    }
+    p,h3,li,a{
+        color: #fff;
+    }
+}
+
+/*tablet*/
+/*
+@media(max-width:768px){
+    nav{
+        width: 30%;
+    }
+
+    article{
+        70%
+    }
+
+    .coluna{
+        width: 50vw;
+        min-width: unset;
+
+    }
+    
+
+}
+*/
+/* mobile first*/
+/*smartphone*/
+@media(max-width:425px){
+
+    nav,
+    article,
+    .coluna{
+        width: 100%;
+     /*  min-width: 320px;*/
+    }
+}
+
