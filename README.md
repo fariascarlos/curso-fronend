@@ -13,5 +13,6 @@ informação de alteração
 git add *
 git commit "mensagem"
 
-git pull
-git
+git push (enviar alteraçoes para o repositorio github)
+
+git pull(para puxar /trazer informações do github para sua maquina)
