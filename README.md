@@ -12,3 +12,6 @@ informação de alteração
 - após textado todo seu código
 git add *
 git commit "mensagem"
+
+git pull
+git
