@@ -27,3 +27,11 @@ são ramificações do código/versões paralelas
 - develop
 - DOD definition of done
 - versonamento 1.0.0
+
+
+git checkout -b (cria uma nova branch)
+git checkout master (mudar de branch)
+
+
+### Merge 
+mescla de branch
