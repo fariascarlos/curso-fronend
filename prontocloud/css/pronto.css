@@ -122,6 +122,10 @@ ol li{
     color: #434343;
 }
 
+html .cog-abuse a{
+    visibility: hidden !important;
+}
+
 footer{
     display: block;
     float: left;
