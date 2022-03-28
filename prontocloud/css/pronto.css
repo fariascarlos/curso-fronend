@@ -122,10 +122,45 @@ ol li{
     color: #434343;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+.h1{
+    text-align: center;
+}
+
+.preencha{
+    margin: 30px;
+}
+
+.cog-form__content{
+    background-color: #9ab2c7 !important;
+
+}
+
+#tenho-interesse {
+    background-color: #9ab2c7;
+    width: 100%;
+
+}
+
+.tenho-interesse form,
+.is-required .cog-labe,
+.cog-cognito--styled .cog-header h1,
+.cog-label{
+color: #254155 !important;
+
+}
+
 html .cog-abuse a{
     visibility: hidden !important;
 }
 
+.cognito{
+    height: 400px !important;
+    overflow: hidden;
+}
 footer{
     display: block;
     float: left;
