@@ -65,6 +65,7 @@ h4{
    padding-top: 10px;
 }
 
+
 p{
     margin-bottom: 10px;
     line-height: 1.4;
@@ -180,4 +181,35 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+
+@media (max-width:425px){
+    section nav,
+    section article{
+        width: 100%;
+    }
+   .container{
+       padding-left: 1%;
+       padding-right: 1%;
+   }
+   p h1 h2 h3 {
+       width: 100%;
+       .main-conteiner{
+           width: 100%;
+       }
+       body{
+           width: 100%;
+       }
+   }
+   h1{
+   font-size: 1.8rem;
+   }
+
+   h2{
+   font-size: 1.6rem;
+   }
+   h3{
+   font-size: 1.4rem;;
+   }
+
 }
