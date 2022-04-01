@@ -188,17 +188,29 @@ footer small {
     section article{
         width: 100%;
     }
-   .container{
+    body{
+        margin: 0;
+    }
+   .main-conteiner{
        padding-left: 1%;
        padding-right: 1%;
+
    }
+
+   .conteiner{
+       width: 100%;
+
+   
    p h1 h2 h3 {
        width: 100%;
+   }
        .main-conteiner{
            width: 100%;
+           overflow: hidden;
        }
        body{
            width: 100%;
+           overflow: hidden;
        }
    }
    h1{
