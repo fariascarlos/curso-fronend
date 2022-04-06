@@ -1,0 +1,65 @@
+> var revisão = 10;
+undefined
+> for (km = 0; km < 10 ; km++) {console.log("pode rodar")
+...
+... for (km = 0; km < 10 ; km++) { console.log("pode rodar")}
+... for (km = 0; km < revisão ; km++){consele.log9"pode rodar")}
+for (km = 0; km < revisão ; km++){consele.log9"pode rodar")}
+                                              ^^^^^^^^^^^^
+
+Uncaught SyntaxError: Unexpected string
+> for (km = 0; km < revisão ; km++){console.log("pode rodar")}
+pode rodar
+pode rodar
+pode rodar
+pode rodar
+pode rodar
+pode rodar
+pode rodar
+pode rodar
+pode rodar
+pode rodar
+undefined
+> revisão = 3
+3
+> for (km = 0; km < revisão; km++){console.log("pode rodar")}
+pode rodar
+pode rodar
+pode rodar
+undefined
+> for (km = 0; km < revisão; km++){console.log("apenas" + km + "kms então pode rodar");}
+apenas0kms então pode rodar
+apenas1kms então pode rodar
+apenas2kms então pode rodar
+undefined
+var alunos = [
+    [6 ,7 , 8 , 6]
+    [8 , 5 , 6 ,8]
+    [10 , 6 , 8 , 7]
+]
+var nota = 0
+ for (var i = 0; i < alunos.length; i++){
+     nota = 0
+
+     aluno = alunos[i]
+
+     console.log("aluno :" aluno);
+
+     https://jsfiddle.net/y3of9u85/
+
+     https://jsfiddle.net/y3of9u85/1/
+
+
+
+     for(c = 0; c < aluno.length; c++){
+         nota += aluno[c];
+     }
+
+     media =nota / 4;
+
+     if(media >= 7){
+         resultado ="aprovado";
+     } else {resultado = "reprovado"}
+
+     console.log("media:" + media + " -" + resultado);
+ }
