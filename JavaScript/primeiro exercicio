@@ -62,5 +62,7 @@ tenho que usar a lógica
  //console.log( "media " + calcularMedia([9,6]))
  // console.log(aprovacao( calcularMedia([9,6] ) ) )
  console.log(aprovacao([9,6]))
+
+ https://jsfiddle.net/gkecqmjx/
  
  
