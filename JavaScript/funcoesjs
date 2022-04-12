@@ -45,7 +45,7 @@ var nota = 0
 
      console.log("aluno :" aluno);
 
-     https://jsfiddle.net/y3of9u85/
+     ://jsfiddle.nhttpset/y3of9u85/
 
      https://jsfiddle.net/y3of9u85/1/
 
@@ -63,3 +63,15 @@ var nota = 0
 
      console.log("media:" + media + " -" + resultado);
  }
+
+ var preto = "cinza";
+
+ var cinza = "branco";
+
+ var carro = "preto";
+
+ var valor = 3000;
+
+ var prestação = 750;
+
+ https://jsfiddle.net/ykx45q91/
