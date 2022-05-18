@@ -1,0 +1,43 @@
+
+.card{
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+
+header{
+    background-color: rgba(187, 172, 172, 0.253);
+    border-bottom: 1px solid rgb(75, 36, 36);
+}
+
+#celular{
+    
+    height: 240px;
+}
+
+.img-1{
+    width: 50px;
+}
+
+section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+footer{
+    background-color: rgba(187, 172, 172, 0.253);;   
+}
+footer p{
+    color: blue;
+}
+input, 
+textarea{
+    margin-bottom: 1rem;
+}
+body{
+    background-color: rgba(75, 75, 78, 0.089);
+}
+
+.logo{
+    width: 40%;
+    height: 75px;
+}

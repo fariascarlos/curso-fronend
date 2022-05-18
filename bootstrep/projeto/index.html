@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./style/custom.css">
+    <title></title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h5>Boottec</h5>
+                    <img class="logo" src="./image/tec.jpg" alt="">
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="" >Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contatos">Contatato</a></li>
+                       </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+   
+<section id="sobre">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12">
+
+                <h2>Sobre nós</h2>
+                <p>Somos uma empresa que fornece produtos eletronicos no mais alto padrão de qualidade, de componentes  a aparelhos eletronicos,
+                    temos 10 lojas no Brasil e nossa matriz fica localizada em São Pulo.
+                </p>
+                <p>Trabalhamos com diversos produtos tecnológicos aonde nossos preços estão entre os melhores do mercado.</p>
+               
+               
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <img src="./image/pexels-vanessa-loring-7869238.jpg" alt="imagem exelplo" class="img-fluid">
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="produtos">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <h4>Confira nossa listagem de produtos abaixo</h4>
+                <h3>Produtos</h3>
+                <div class="card">
+                    <img src="./image/fone.jpg" alt="imagem exelplo" class="img-fluid">
+                    <div class="car body">
+                        <h5 class="card-title">Fone jfg</h5>
+
+                        <p class="card-text">Fone bluetooth com 5GB de memória</p>
+
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img id="celular" src="./image/celular.jpg" alt="imagem exelplo" class="img-fluid">
+                    <div class="car body">
+                        <h5 class="card-title">smartphone 65xd</h5>
+                        <p class="card-text">Com 200GB memória interna</p>
+                        <a  class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <img src="./image/camera.jpg" alt="imagem exelplo" class="img-fluid">
+                    <div class="car body">
+                        <h5 class="card-title">Câmera Canon</h5>
+                        <p class="card-text">Câmera Canon alta resolução </p>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h2>Contato</h2>
+                <p>Ficou Interessado? Preencha os campos do formulário para receber uma cotação</p>
+            
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <form class="form">
+                    <div class="input-grup">
+                        <input class="form-control" type="text" name="nome" placeholder="digite seu nome" >
+                    </div>
+                    <div class="input-grup">
+                        <input class="form-control" type="text" name="email" placeholder="digite seu email" >
+                    </div>
+                    <div class="input-group">
+                        <textarea class="form-control" name="" id=""  rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal fade " id="modal-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Fone jfg</h5>
+               
+                <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6>Temos nas cores</h6>
+                <img class="img-1" src="./image/fone.jpg" alt="imagem fone">
+               
+                <table class="table table-hover table-striped" >
+                    
+                        <thead>
+                            <th>cores</th>
+                            <th>valor</th>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>branco</td>
+                                <td>R$ 200</td>
+                            </tr>
+                            <tr>
+                                <td>vermelho</td>
+                                <td>R$ 200</td>
+                            </tr>
+                            <tr>
+                                <td>azul</td>
+                                <td>R$ 200</td>
+                            </tr>
+
+                        </tbody>
+                       
+                </table>
+            </div>
+   
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">close</button>
+
+            </div>
+        </div>
+    </div>
+   
+</div>
+<footer>
+   
+        <p>&copy;Boottec. Todos os direitos reservados.</p>
+      <p><small>Desenvolvido por: José Carlos Farias</small></p>  
+
+</footer>
+
+     <script src="bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>
