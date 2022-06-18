@@ -35,3 +35,10 @@ git checkout master (mudar de branch)
 
 ### Merge 
 mescla de branch
+
+
+## Plugins
+
+jQuery mask
+
+https://igorescobar.github.io/jQuery-Mask-Plugin/docs.html
